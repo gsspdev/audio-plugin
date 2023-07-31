@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="WrqZMh" name="audio-plugin" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginManufacturer="rekreation" cppLanguageStandard="17" companyName="rekreation"
+              pluginManufacturerCode="Demo" pluginCode="Demo" pluginFormats="buildAU,buildAUv3,buildStandalone,buildVST3"
+              pluginAUIsSandboxSafe="1" includeBinaryInJuceHeader="1">
+  <MAINGROUP id="J8XDer" name="audio-plugin">
+    <GROUP id="{0F745747-1F82-1CA0-C6CD-CB60EE7E4062}" name="MacOSX">
+      <GROUP id="{2BB6F9BE-6A68-C0CE-3E56-CF07C426D5CB}" name="audio-plugin.xcodeproj">
+        <GROUP id="{A298F297-7539-8E9A-625C-9EBD0AC484A2}" name="project.xcworkspace">
+          <GROUP id="{C04DCECE-4309-04AD-C980-C1B91EAA642C}" name="xcshareddata">
+            <GROUP id="{B65BFBB4-7809-17D4-E873-AA4518703467}" name="swiftpm">
+              <GROUP id="{6C991612-F5AA-3C61-6DBE-B7FD805FCEE9}" name="configuration"/>
+            </GROUP>
+            <FILE id="btV5kZ" name="IDEWorkspaceChecks.plist" compile="0" resource="1"
+                  file="Builds/MacOSX/audio-plugin.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist"/>
+          </GROUP>
+          <GROUP id="{1EE870FA-7BD3-6AA3-BD51-1A358FAC2DDE}" name="xcuserdata">
+            <GROUP id="{28A32BDC-B798-07E3-9AA3-50A829743CC6}" name="gssp.xcuserdatad">
+              <FILE id="DL9fTF" name="UserInterfaceState.xcuserstate" compile="0"
+                    resource="1" file="Builds/MacOSX/audio-plugin.xcodeproj/project.xcworkspace/xcuserdata/gssp.xcuserdatad/UserInterfaceState.xcuserstate"/>
+            </GROUP>
+          </GROUP>
+          <FILE id="owLQsN" name="contents.xcworkspacedata" compile="0" resource="1"
+                file="Builds/MacOSX/audio-plugin.xcodeproj/project.xcworkspace/contents.xcworkspacedata"/>
+        </GROUP>
+        <GROUP id="{6E788815-E438-C779-F266-03A643A53F1C}" name="xcuserdata">
+          <GROUP id="{9CA1F572-A680-729E-8786-19ADFBF9D905}" name="gssp.xcuserdatad">
+            <GROUP id="{25B31EEC-2BE5-F7AC-8C37-CB8A6EAF44FB}" name="xcschemes">
+              <FILE id="xCAGHy" name="xcschememanagement.plist" compile="0" resource="1"
+                    file="Builds/MacOSX/audio-plugin.xcodeproj/xcuserdata/gssp.xcuserdatad/xcschemes/xcschememanagement.plist"/>
+            </GROUP>
+          </GROUP>
+        </GROUP>
+        <FILE id="xfgUGh" name="project.pbxproj" compile="0" resource="1" file="Builds/MacOSX/audio-plugin.xcodeproj/project.pbxproj"/>
+      </GROUP>
+      <GROUP id="{1D431402-1A84-67D8-7BB3-DA17AB8B7FED}" name="build">
+        <GROUP id="{37A9BB7B-3F22-9651-378A-3643509D9CD8}" name="Debug">
+          <GROUP id="{FF2AA6CE-F8EE-64FC-DA87-8A63BEDF40C4}" name="audio-plugin.app">
+            <GROUP id="{953515AB-7ABE-903F-3AD7-14FC516864A8}" name="Contents">
+              <GROUP id="{6CDF8CB6-CDE6-F29B-8D04-B41896B82BE9}" name="Resources"/>
+            </GROUP>
+          </GROUP>
+        </GROUP>
+      </GROUP>
+      <FILE id="ZXY31I" name="Info-AU.plist" compile="0" resource="1" file="Builds/MacOSX/Info-AU.plist"/>
+      <FILE id="c4CY08" name="Info-Standalone_Plugin.plist" compile="0" resource="1"
+            file="Builds/MacOSX/Info-Standalone_Plugin.plist"/>
+      <FILE id="KB5flN" name="Info-VST3.plist" compile="0" resource="1" file="Builds/MacOSX/Info-VST3.plist"/>
+      <FILE id="r8Grlt" name="RecentFilesMenuTemplate.nib" compile="0" resource="1"
+            file="Builds/MacOSX/RecentFilesMenuTemplate.nib"/>
+    </GROUP>
+    <GROUP id="{9C1D40EB-8772-376D-80CB-AAA4431D9D7D}" name="Source">
+      <GROUP id="{6064E01F-8014-7A93-B84B-2C4F9D2B7926}" name="JuceLibraryCode">
+        <FILE id="nQvsHE" name="JuceHeader.h" compile="0" resource="0" file="JuceLibraryCode/JuceHeader.h"/>
+        <FILE id="wff45O" name="JucePluginDefines.h" compile="0" resource="0"
+              file="JuceLibraryCode/JucePluginDefines.h"/>
+        <FILE id="MMhfH3" name="ReadMe.txt" compile="0" resource="1" file="JuceLibraryCode/ReadMe.txt"/>
+      </GROUP>
+      <FILE id="uQUos9" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="h1FkHN" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="EW1f0x" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="vjPuwX" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="audio-plugin"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="audio-plugin"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_plugin_client" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_analytics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_analytics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+</JUCERPROJECT>
